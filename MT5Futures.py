@@ -114,7 +114,7 @@ def create_ui():
     lot_size_entry.pack()
     
     direction_var = tk.StringVar(value="Buy")
-    tk.Radiobutton(root, text="Buy", variable=direction_var, value="Buy").pack()
+    tk.Radiobutton(root, text="Busy", variable=direction_var, value="Buy").pack()
     tk.Radiobutton(root, text="Sell", variable=direction_var, value="Sell").pack()
     
     tk.Button(root, text="Open Trade", command=lambda: open_trade(symbol_entry.get(), float(lot_size_entry.get()), direction_var.get())).pack()
