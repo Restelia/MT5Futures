@@ -77,7 +77,7 @@ window_thread = threading.Thread(target=create_window, daemon=True)
 window_thread.start()
 
 # Configuration
-DISCORD_BOT_TOKEN = "MTI5MTc5NzE0NjI1Mjg3MzgyOA.GAUIwK.R-c7Pn9H5ic3Q5Mcjzinv8c5XxzyretO0j6mnQ"
+DISCORD_BOT_TOKEN = "CANTSHARETHIS"
 DISCORD_CHANNEL_ID = 807715215940255837  # Replace with your channel ID
 TP1 = 40
 TP2 = 70
